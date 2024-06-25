@@ -4,7 +4,7 @@ import 'news_db_provider.dart';
 import '../models/item_model.dart';
 
 
-class Repository {
+abstract class Repository {
    NewsDbProvider dbProvider = NewsDbProvider();
    NewsApiProvider apiProvider = NewsApiProvider();
 
